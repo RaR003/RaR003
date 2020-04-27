@@ -15,11 +15,6 @@ body {
     font-family: 'lato', sans-serif;
 }
 
-#container{
-    margin: auto;
-    max-width: 1000px;
-}
-
 
 .header {
     background-color: black;
@@ -57,16 +52,11 @@ body {
     text-decoration: none;
 }
 
-#pageone img{
+.pageone img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     }
-
-#pageone{
-position: relative;
-display: inline-block; 
-}
 
 
 .filler{
@@ -79,6 +69,7 @@ display: inline-block;
     margin: auto;
     color: white;
     font-size: 1.2em;
+    text-align: center;
  
 }
     
@@ -144,9 +135,10 @@ display: inline-block;
 #page3{
     background-color: black;
     height: auto;
-    max-width: 1000px;
     margin: auto;
-    color:white
+    color:white;
+    text-align: center;
+
 }
 
 
@@ -214,7 +206,9 @@ display: inline-block;
     height: auto;
     max-width: 1000px;
     margin: auto;
-    color:white
+    color:white;
+    text-align: center;
+    
 }
 
 .people {
