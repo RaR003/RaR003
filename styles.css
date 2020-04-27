@@ -28,7 +28,6 @@ body {
     grid-template-columns: 200px auto;
     margin-left: auto;
     margin-right: auto;
-    max-width: 950px;
 }
 
 .logo {
@@ -204,7 +203,6 @@ body {
 #page4{
     background-color: black;
     height: auto;
-    max-width: 1000px;
     margin: auto;
     color:white;
     text-align: center;
@@ -272,8 +270,14 @@ body {
 #page5 {
     background-color: black;
     height: auto;
-    max-width: 1000px;
-    margin: auto;
+    padding-bottom: 10px;
     color:white;
     text-align: center;
+}
+
+#page5 .a {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
 }
